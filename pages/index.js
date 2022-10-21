@@ -1,5 +1,6 @@
 import React from "react";
 import { Merchandise, FooterBanner, MainBanner } from "../components";
+
 const Home = () => {
   return (
     <>
