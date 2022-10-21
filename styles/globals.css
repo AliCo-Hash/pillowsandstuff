@@ -49,3 +49,13 @@ a {
   margin-top: 20px;
   width: 100%;
 }
+
+.main-banner-container {
+  padding: 100px 40px;
+  background-color: #dcdcdc;
+  border-radius: 15px;
+  position: relative;
+  height: 500px;
+  line-height: 0.9;
+  width: 100%;
+}
