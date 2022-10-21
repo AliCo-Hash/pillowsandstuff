@@ -1,4 +1,5 @@
 import React from "react";
+import { client } from "../lib/client";
 import { Merchandise, FooterBanner, MainBanner } from "../components";
 
 const Home = () => {
