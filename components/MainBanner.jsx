@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const MainBanner = () => {
   return (
-    <div>MainBanner</div>
-  )
-}
+    <div className="main-banner-container">
+      <div>
+        <p className="panda-pillow"></p>
+      </div>
+    </div>
+  );
+};
 
-export default MainBanner
+export default MainBanner;
