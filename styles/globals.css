@@ -92,7 +92,32 @@ a {
 .main-banner-image {
   position: absolute;
   top: 0%;
-  right: 20%;
+  right: 20px;
   width: 450px;
   height: 450px;
+}
+
+@media screen and (max-width: 800px) {
+  .main-banner-container {
+    height: 560px;
+  }
+  .main-banner-image {
+    width: 77%;
+    height: 62%;
+    top: -2%;
+    right: -6%;
+  }
+  .main-banner-container {
+    line-height: 1.3;
+  }
+  .main-banner-container h1 {
+    font-size: 50px;
+  }
+  .main-banner-container h3 {
+    font-size: 40px;
+  }
+  .main-banner-container button {
+    margin-top: 90px;
+    z-index: 10000;
+  }
 }
