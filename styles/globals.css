@@ -79,7 +79,8 @@ a {
 .main-banner-container h1 {
   color: white;
   font-size: 10em;
-  margin-left: -20px;
+  margin-left: -16px;
+  margin-top: 0;
   text-transform: uppercase;
 }
 .main-banner-image {
@@ -149,6 +150,7 @@ a {
     right: 0;
   }
   .main-banner-container h1 {
+    margin-left: 0;
     font-size: 50px;
   }
   .main-banner-container h3 {

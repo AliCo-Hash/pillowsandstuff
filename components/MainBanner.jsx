@@ -9,7 +9,7 @@ const MainBanner = ({ mainBanner }) => {
       <div>
         <p className="sale-pillow">{mainBanner.smallText}</p>
         <h3>{mainBanner.midText}</h3>
-        <h1>{mainBanner.largeText}</h1>
+        <h1>{mainBanner.largeText1}</h1>
         <img
           src={urlFor(mainBanner.image)}
           alt="pillows"
