@@ -15,7 +15,7 @@ const Home = ({ merchandises, bannerData }) => {
           <Merchandise key={merchandise._id} merchandise={merchandise} />
         ))}
       </div>
-      <FooterBanner />
+      <FooterBanner footerBanner={bannerData && bannerData[0]} />
     </>
   );
 };
