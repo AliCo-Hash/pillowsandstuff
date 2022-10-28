@@ -7,7 +7,7 @@ const MainBanner = ({ mainBanner }) => {
   return (
     <div className="main-banner-container">
       <div>
-        <p className="panda-pillow">{mainBanner.smallText}</p>
+        <p className="sale-pillow">{mainBanner.smallText}</p>
         <h3>{mainBanner.midText}</h3>
         <h1>{mainBanner.largeText}</h1>
         <img
